@@ -1,0 +1,12 @@
+---
+description: Use PerSQL branches for any database experiment, migration trial, or destructive operation. Never test on the main database.
+alwaysApply: true
+---
+
+persql-branches:
+
+- Before any schema migration, mutation, or destructive query, claim a branch via `claim_branch` with a TTL of one hour or less.
+- Run the change on the branch first, verify the result, then merge back with `merge_branch` or discard with `delete_branch`.
+- For preview environments, name the branch after the PR or experiment so it auto-cleans on TTL expiry.
+- Branches are free until used. Spawning one per agent run, per PR, or per experiment carries no fixed cost.
+- Do not run schema changes against the production database directly. The branch flow is the production-safe path.

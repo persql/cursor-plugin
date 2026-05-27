@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "persql": {
+      "url": "https://mcp.persql.com",
+      "headers": {
+        "Authorization": "Bearer ${PERSQL_TOKEN}"
+      }
+    }
+  }
+}

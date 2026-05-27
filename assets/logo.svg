@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="PerSQL logo">
+  <mask id="persql-mark-slash">
+    <rect width="32" height="32" fill="white"/>
+    <path d="M22 6 L11 26 L6 26 L17 6 Z" fill="black"/>
+    <rect x="15" y="24" width="11" height="3" fill="black"/>
+  </mask>
+  <rect width="32" height="32" rx="6" fill="currentColor" mask="url(#persql-mark-slash)"/>
+</svg>

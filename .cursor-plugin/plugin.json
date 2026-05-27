@@ -1,0 +1,13 @@
+{
+  "name": "persql",
+  "displayName": "PerSQL",
+  "version": "0.1.0",
+  "description": "Per-X SQLite databases on the edge. One isolated database per agent, per PR, per app, per use case. Includes branches, snapshots, and migrations.",
+  "author": {
+    "name": "PerSQL",
+    "email": "admin@persql.com"
+  },
+  "license": "MIT",
+  "keywords": ["persql", "sqlite", "mcp", "database", "agent", "branch"],
+  "logo": "assets/logo.svg"
+}
